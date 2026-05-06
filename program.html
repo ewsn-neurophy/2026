@@ -1,0 +1,351 @@
+---
+# this is an empty front matter
+---
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ site.data.conference.short_title }} {{ site.data.conference.year }} | ACM MobiCom {{ site.data.conference.year }}</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body data-spy="scroll" data-target="#site-nav">
+    <!-- navigation bar and header placeholder -->
+    {% include header.html %}
+
+    <section id="program" class="section facts" style="display: block;">
+        <div class="container">
+<!--            TODO: Update room-->
+            The workshop will take place on {{ site.data.conference.dates}}, conference room <b>Congressional</b>.</td>
+<!--            TODO: add link to proceedings-->
+            The proceedings are available on the <a href="https://dl.acm.org/conference/mobicom/proceedings" target="_blank"><u>ACM Digital Library</u>.</a></td>
+
+            <table style="vertical-align: bottom">
+                
+                <tr>
+                    <td style="padding-right: 30px; white-space: nowrap;">8:30 AM - 8:35 AM</td>
+                    <td><ulx><h3>Opening Remarks and House-keeping<br>
+                            <font size="3", style="font-weight:normal">Salvatore D'Oro, Aloizio da Silva</font></h3><br>
+                        </ulx>
+                    </td>
+                </tr>
+                <!-- <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr> -->
+                <tr>
+                    <td>8:35 AM - 9:05 AM</td>
+                    <td>
+                        <ulx>
+                            <h3>Keynote by Bozidar Radunovic, Microsoft Research<br>
+                            <h4>Title: How to build a large, programmable 5G testbed</h4>
+                            <font size="3", style="font-weight:normal"><a href="keynote.html"><u>Speaker and Keynote info</u></a></font></h3><br>
+                        </ulx>
+                    </td>
+                </tr>
+                <tr>
+                    <td>9:05 AM - 10:25 AM</td>
+                    <td>
+                        <ulx>
+                            <h3>Session 1: Sensing, Localization and Sharing<br>
+                            <font size="3", style="font-weight:normal">Session chair: Salvatore D'Oro, Northeastern University</font></h3><br>
+                        </ulx>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align:text-top;"></td>
+                    <td>
+                        <ulx>
+                            <b>SPEAR: Software-defined Python-Enhanced RFSoC for Wideband Radio Applications</b><br>
+                            <font size="2">Wei Cheng (Duke University), Zhihui Gao (Duke University), Tingjun Chen (Duke University)</font><br>
+                        </ulx>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align:text-top;"></td>
+                    <td>
+                        <ulx>
+                            <b>Data Driven Environmental Awareness Using Wireless Signals for Efficient Spectrum Sharing</b><br>
+                            <font size="2">Hossein Nasiri (University of Notre Dame), Seda Tusha (University of Notre Dame), Muhammad Iqbal Rochman (University of Notre Dame), Monisha Ghosh (University of Notre Dame)</font><br>
+                        </ulx>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align:text-top;"></td>
+                    <td>
+                        <ulx>
+                            <b>Cloud-Based Federation Framework and Prototype for Open, Scalable, and Shared Access to NextG and IoT Testbeds</b><br>
+                            <font size="2">Maxwell McManus (University at Buffalo), Tenzin Rinchen (University at Buffalo), Annoy Dey (University at Buffalo), Sumanth Thota (University at Buffalo), Josh (Zhaoxi) Zhang (University at Buffalo), Jiangqi Hu (Eastern New Mexico University), Xi (Leo) Wang (University of Florida), Mingyue Ji (University of Florida), Nicholas Mastronarde (University at Buffalo), Elizabeth S. Bentley (Air Force Research Laboratory), Michael Medley (SUNY Polytechnic Institute), Zhangyu Guan (University at Buffalo)</font><br>
+                        </ulx>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align:text-top;"></td>
+                    <td>
+                        <ulx>
+                            <b>Non-public 5G-NR Unlicensed: Design, Implementation and Evaluation</b><br>
+                            <font size="2">Filipe Peixoto (Instituto de Telecomunicações/Univ. Porto), Adriano Goes (Capgemini Engineering), Ana Aguiar (Instituto de Telecomunicações/Univ. Porto)</font><br>
+                        </ulx>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align:text-top;"></td>
+                    <td>
+                        <ulx>
+                            <b>Experimental Validation of a 3GPP Compliant 5G-based Positioning System</b><br>
+                            <font size="2">Sarik Dhungel (George Mason University), Gaurav Duggal (Virginia Tech), Dara Ron (George Mason University), Nishith Tripathi (Virginia Tech), R. Michael Buehrer (Virginia Tech), Jeffrey H. Reed (Virginia Tech), Vijay K Shah (George Mason University)</font><br>
+                        </ulx>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>10:25 AM - 11:00 AM</td>
+                    <td>
+                     <ulx>
+                            <h3>Coffee Break<br></h3>
+                            <!-- <font size="3", style="font-weight:normal">Room: TBD</font></h3><br> -->
+                    </ulx>
+                    </td>
+                </tr>
+                <tr>
+                    <td>11:00 AM - 12:04 PM</td>
+                    <td>
+                        <ulx>
+                            <h3>Session 2: Open RAN Networks<br>
+                            <font size="3", style="font-weight:normal">Session chair: Aloizio da Silva, Commonwealth Cyber Initiative</font></h3><br>
+                        </ulx>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align:text-top;"></td>
+                    <td>
+                        <ulx>
+                            <b>AI-Driven Network Intrusion Detection and Resource Allocation in Real-World O-RAN 5G Networks</b><br>
+                            <font size="2">Theodoros Tsourdinis (University of Thessaly & Sorbonne Université), Nikos Makris (University of Thessaly & CERTH), Thanasis Korakis (University of Thessaly & CERTH), Serge Fdida (Sorbonne Université)</font><br>
+                        </ulx>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align:text-top;"></td>
+                    <td>
+                        <ulx>
+                            <b>Performance Analysis of Outdoor Open RAN Deployments in Long-Haul 5G Networks using the OpenRAN@Brasil Testbed</b><br>
+                            <font size="2">Weskley Mauricio (CPQD), Francisco Hugo Costa Neto (CPQD), Maykon Silva (CPQD), Rodrigo Kenji Yaly Aoki (CPQD), Eduardo Ebeling de Almeida (CPQD), Eduardo Melão (CPQD), Sérgio Barros (CPQD), Daniel Lazkani Feferman (CPQD), Fuad M. Abinader Jr. (CPQD)</font><br>
+                        </ulx>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align:text-top;"></td>
+                    <td>
+                        <ulx>
+                            <b>Twinning Commercial Network Traces on Experimental Open RAN Platforms</b><br>
+                            <font size="2">Leonardo Bonati (Northeastern University), Ravis Shirkhani (Northeastern University), Claudio Fiandrino (IMDEA Networks), Stefano Maxenti (Northeastern University), Salvatore D'Oro (Northeastern University), Michele Polese (Northeastern University), Tommaso Melodia (Northeastern University)</font><br>
+                        </ulx>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align:text-top;"></td>
+                    <td>
+                        <ulx>
+                            <b>xDevSM: Streamlining xApp Development With a Flexible Framework for O-RAN E2 Service Models</b><br>
+                            <font size="2">Angelo Feraudo (University of Bologna), Stefano Maxenti (Northeastern University), Andrea Lacava (Northeastern University, Sapienza University of Rome), Paolo Bellavista (University of Bologna), Michele Polese (Northeastern University), Tommaso Melodia (Northeastern University)</font><br>
+                        </ulx>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>12:04 PM - 2:00 PM</td>
+                    <td><ulx>
+                            <h3>Lunch<br></h3>
+                            <!-- <font size="3", style="font-weight:normal">Room: TBD</font></h3><br> -->
+                        </ulx>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2:00 PM - 3:00 PM</td>
+                    <td>
+                     <ulx>
+                            <h3>Demo Session<br></h3>
+                            <!-- <font size="3", style="font-weight:normal">Demos will be announced soon</font></h3>
+                            <br> -->
+                    </ulx>
+                    </td>
+                </tr>
+                <!-- <tr>
+                    <td style="vertical-align:text-top;"></td>
+                    <td>
+                        <ulx>
+
+                            <font size="3", style="font-weight:normal">Demo 1: Title</font> <font size="2", style="font-weight:normal"> Authors </font><br>                 
+
+                        </ulx>
+                    </td>
+                </tr> -->
+                <tr>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>3:00 PM - 4:04 PM</td>
+                    <td>
+                        <ulx>
+                            <h3>Session 3: Wi-Fi and LoRa<br>
+                            <font size="3", style="font-weight:normal">Session chair: Ion Turcanu, Luxembourg Institute of Science and Technology (LIST)</font></h3><br>
+                        </ulx>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align:text-top;"></td>
+                    <td>
+                        <ulx>
+                            <b>Experimenting with Adaptive Bitrate Algorithms for Virtual Reality Streaming over Wi-Fi</b><br>
+                            <font size="2">Ferran Maura (Universitat Pompeu Fabra), Miguel Casasnovas (Universitat Pompeu Fabra), Boris Bellalta (Universitat Pompeu Fabra)</font><br>
+                        </ulx>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align:text-top;"></td>
+                    <td>
+                        <ulx>
+                            <b>Open-source Resource Control API for real IEEE 802.11 Networks</b><br>
+                            <font size="2">Sankalp Prakash Pawar (Hochschule Nordhausen), Prashiddha Dhoj Thapa (Fraunhofer HHI), Jonas Jelonek (Hochschule Nordhausen), Arne Kappen (Fraunhofer HHI), Nick Hainke (Hochschule Nordhausen), Thomas Huehn (Hochschule Nordhausen), Julius Schulz-Zander (Fraunhofer HHI), Henrike Wissing (Fraunhofer HHI), Felix Fietkau (OpenWrt), Martin Le (Technische Universität Braunschweig)</font><br>
+                        </ulx>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align:text-top;"></td>
+                    <td>
+                        <ulx>
+                            <b>WiSenseHub: Architecture to deploy a building-scale WiFi-sensing system</b><br>
+                            <font size="2">Pratyaksh Mundra (Vellore Institute of Technology), Zhengyu Huang (University of California, San Diego), William Hunter (University of California San Diego), Aditya Arun (UCSD), Dharmi Khadela (University at Buffalo), Prachi Sinha (University at Buffalo), Dinesh Bharadia (UCSD), Roshan Ayyalasomayajula (University at Buffalo)</font><br>
+                        </ulx>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align:text-top;"></td>
+                    <td>
+                        <ulx>
+                            <b>Beyond Sensing: A High-Performance Software-Defined LoRa Gateway</b><br>
+                            <font size="2">Vincenz Mechler (TU Darmstadt), Matthias Hollick (TU Darmstadt, Germany), Bastian Bloessl (TU Darmstadt)</font><br>
+                        </ulx>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>4:04 PM - 4:30 PM</td>
+                    <td>
+                     <ulx>
+                            <h3>Coffee Break<br></h3>
+                            <!-- <font size="3", style="font-weight:normal">Room: TBD</font></h3><br> -->
+                    </ulx>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4:30 PM - 5:34 PM</td>
+                    <td>
+                        <ulx>
+                            <h3>Session 4: mmWave, Beamforming and Synchronization<br>
+                            <font size="3", style="font-weight:normal">Session chair: Zhangyu Guan, University of Buffalo</font></h3><br>
+                        </ulx>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align:text-top;"></td>
+                    <td>
+                        <ulx>
+                            <b>m3MIMO: An 8×8 mmWave Multi-User MIMO Testbed for Wireless Research</b><br>
+                            <font size="2">Khandaker Foysal Haque (Northeastern University), Francesca Meneghello (University of Padova), K M Rumman (Northeastern University), Francesco Restuccia (Northeastern University)</font><br>
+                        </ulx>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align:text-top;"></td>
+                    <td>
+                        <ulx>
+                            <b>Zero-Shot Accurate mmWave Antenna Array Calibration in the Wild</b><br>
+                            <font size="2">Oveys Delafrooz Noroozi (University of California, Santa Barbara), Heyu Guo (Princeton University), Ruiyi Shen (Princeton University), Zijian Shao (Princeton University), Haoze Chen (Princeton University), Kaushik Sengupta (Princeton University), Yasaman Ghasempour (Princeton University), Upamanyu Madhow (University of California, Santa Barbara)</font><br>
+                        </ulx>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align:text-top;"></td>
+                    <td>
+                        <ulx>
+                            <b>AraSync: Precision Time Synchronization in Rural Wireless Living Lab</b><br>
+                            <font size="2">Md Nadim (Iowa State University), Taimoor Ul Islam (Iowa State University), Salil Reddy (Ohio State University), Tianyi Zhang (Iowa State University), Zhibo Meng (Iowa State University), Reshal Afzal (Iowa State University), Sarath Babu (Iowa State University), Arsalan Ahmad (Iowa State University), Daji Qiao (Iowa State University), Anish Arora (Ohio State University), Hongwei Zhang (Iowa State University)</font><br>
+                        </ulx>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="vertical-align:text-top;"></td>
+                    <td>
+                        <ulx>
+                            <b>A Multi-Band mm-Wave Experimental Platform Towards Environment-Aware Beam Management in the Beyond-5G Era</b><br>
+                            <font size="2">Aron Schott (RWTH Aachen University), Aleksandar Ichkov (RWTH Aachen University), Berk Acikgöz (RWTH Aachen University), Niklas Beckmann (RWTH Aachen University), Lennart Reiher (RWTH Aachen University), Ljiljana Simić (RWTH Aachen University)</font><br>
+                        </ulx>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- import navigation bar and header -->
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+</body>
+</html>

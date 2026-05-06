@@ -1,0 +1,45 @@
+---
+# this is an empty front matter
+---
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ site.data.conference.short_title }} {{ site.data.conference.year }} | ACM MobiCom {{ site.data.conference.year }}</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body data-spy="scroll" data-target="#site-nav">
+{% include header.html %}
+
+<section id="keynote" class="section faq" style="display: block;">
+    <div class="container">
+
+        <a id="keynoteI"></a>
+        <h3>Keynote</h3>
+        <p align='justify'>
+            <b>Bozidar Radunovic, Microsoft Research</b>            
+        </p>
+
+        <img src='img/speakers/bozidar.jpg' style="width:120px;float:left;margin-right:2%;">
+        
+        <p align='justify'><b>Title:</b> How to build a large, programmable 5G testbed</p>
+        <p align='justify'><b>Abstract:</b> In this talk, I will share our experience in building a large, enterprise 5G network testbed and making it programmable. I’ll discuss the challenges we encountered and the opportunities we uncovered along the way. These ideas have resonated widely with our industry partners, and I’ll highlight the impact this work has had with them over the past few years.</p>
+        
+        <p align='justify'><b>Bio:</b> Bozidar Radunovic is a Senior Principal Researcher in the <a href="https://www.microsoft.com/en-us/research/group/ins/" target="_blank"><u>Intelligent Networked Systems</u></a> group at Microsoft Research (previously <a href="https://www.microsoft.com/en-us/research/group/azure-for-operators-afo-research/" target="_blank"><u>Azure for Operators Research</u></a>), in Cambridge, UK. His research interests are in design and building next generation 5G infrastructure on cloud and edge. He has performed research on computer systems and algorithms with particular interest in access networks, virtualization and wireless communications.</p>
+
+    </div> 
+</section>
+
+<!-- import navigation bar and header -->
+<script src="//code.jquery.com/jquery.min.js"></script>
+
+<script src="bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+</body>
+</html>
