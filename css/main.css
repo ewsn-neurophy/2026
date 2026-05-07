@@ -362,15 +362,16 @@ ulx li {
  */
 .site-header {
   width: 100%;
-  height: 70%;
-  min-height: 10vh;
+  min-height: 60vh;
+  padding: 100px 0 50px;
   position: relative;
   text-align: center;
-  background-image: linear-gradient(to right, #b92b274D, #1565C04D), url("../img/background/bg.png");
-  background-size: auto auto,cover;
-  background-repeat:no-repeat,no-repeat;
-  background-position: right bottom, center;
-  box-shadow: inset 0px 0px 0px 1000px rgba(0,0,0,.15);
+  background-image: url("../img/background/bg.png");
+  background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #111;
 }
 
 .site-header::before {
@@ -380,11 +381,12 @@ ulx li {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.15);
+  background: linear-gradient(to right, rgba(185,43,39,0.35), rgba(21,101,192,0.35));
+  pointer-events: none;
 }
 
-/.intro {
-    margin-top: 150px;
+.intro {
+    margin-top: 0;
 }
 
 .site-header .intro {

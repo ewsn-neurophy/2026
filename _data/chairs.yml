@@ -1,10 +1,16 @@
 general_chairs:
-  - firstname: Prof. Tingjun
-    lastname: Chen
-    institution: Duke University, Durham, NC, USA
-  - firstname: Prof. Francesco
-    lastname: Gringoli
-    institution: Università degli Studi di Brescia, Brescia, Italy
+  - firstname: Dr. Giovanni
+    lastname: Perin
+    institution: University of Brescia, Brescia, Italy
+  - firstname: Prof. Michele
+    lastname: Rossi
+    institution: University of Padova, Padova, Italy
+  - firstname: Dr. Roberto
+    lastname: Morabito
+    institution: Eurecom, Sophia Antipolis, France
+  - firstname: Prof. Silvia
+    lastname: Tolu
+    institution: Denmark Technical University, Kgs. Lyngby, Denmark
 
 
 # poster_demo_chairs:
@@ -15,12 +21,12 @@ general_chairs:
 #     lastname: Shah
 #     institution: North Carolina State University, USA
 
-publicity_chairs:
-   - firstname: Marco
-     lastname: Cominelli
-     institution: Politecnico di Milano, Milano, Italy
+# publicity_chairs:
+#    - firstname: Marco
+#      lastname: Cominelli
+#      institution: Politecnico di Milano, Milano, Italy
 
-web_chairs:
-   - firstname: Lorenzo
-     lastname: Ghiro
-     institution: Università degli Studi di Brescia, Brescia, Italy
+# web_chairs:
+#    - firstname: Lorenzo
+#      lastname: Ghiro
+#      institution: Università degli Studi di Brescia, Brescia, Italy
