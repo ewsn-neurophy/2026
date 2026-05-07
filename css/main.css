@@ -266,14 +266,14 @@ ulx li {
 }
 
 .bg-image-1 {
-  background: url("../img/background/bg.png") no-repeat center center/cover;
+  background: url("../img/background/dresden-sunset.jpg") no-repeat center 65%/cover;
 }
 .bg-image-1::before {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
 .bg-image-2 {
-  background: url("../img/background/bg.png") no-repeat center bottom/cover;
+  background: url("../img/background/dresden-sunset.jpg") no-repeat center 65%/cover;
 }
 .bg-image-2::before {
   background-color: rgba(0, 0, 0, 0.7);
@@ -366,11 +366,11 @@ ulx li {
   padding: 100px 0 50px;
   position: relative;
   text-align: center;
-  background-image: url("../img/background/bg.png");
+  background-image: url("../img/background/dresden-sunset.jpg");
   background-size: cover;
   -webkit-background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center 65%;
   background-color: #111;
 }
 
