@@ -1,0 +1,20 @@
+title: "NeuroPhy 2026"
+description: "Workshop on Neuromorphic and Physical-Layer AI"
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+theme: null
+
+# Plugins
+plugins:
+  - jekyll-livereload
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor
