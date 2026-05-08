@@ -460,8 +460,9 @@ ulx li {
     font-size: 20px;
   }
 
-  /* Disable justification on mobile to avoid ugly word spacing */
-  p, li {
+  /* Disable justification on mobile to avoid ugly word spacing,
+     but keep header content centred */
+  .section p, .section li {
     text-align: left !important;
   }
 /*
