@@ -459,6 +459,11 @@ ulx li {
   .site-header .intro h2 {
     font-size: 20px;
   }
+
+  /* Disable justification on mobile to avoid ugly word spacing */
+  p, li {
+    text-align: left !important;
+  }
 /*
  * 6.0 Section
  */
