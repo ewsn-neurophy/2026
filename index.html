@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{{ site.data.conference.short_title }} {{ site.data.conference.year }} | ACM MobiCom {{ site.data.conference.year }}</title>
+    <title>{{ site.data.conference.short_title }} {{ site.data.conference.year }} | EWSN {{ site.data.conference.year }}</title>
 
     <!-- css -->
     <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
@@ -26,17 +26,34 @@
                 <font size="4">Workshop endorsed by the <a href="https://multix-6g.eu/" target="_blank">MultiX</a> Horizon JU-SNS project</font>
             </h3>
 
-            <p align="justify">NeuroPHY focuses on the emerging intersection between neuromorphic computing and physical layer (PHY) signal processing for wireless communication systems. The workshop aims to explore how spiking neural networks (SNNs), reservoir computing, and embedded neuromorphic processors can enable ultra-low-power, adaptive, and real-time PHY functionalities. The aim is to bring together researchers working on both hardware implementations and software-driven applications to advance next-generation wireless and sensor systems, especially towards energy efficiency..</p>
+            <p align="justify">The increasing demand for energy-efficient wireless sensing and communication systems,
+            particularly in IoT and cyber-physical systems, requires rethinking physical layer (PHY) processing architectures. 
+            Neuromorphic computing aligns with this need by enabling (i) ultra-low-power operations, (ii) event-driven processing, 
+            and (iii) native temporal signal handling. This is especially relevant for (a) edge intelligence in wireless sensor networks, 
+            (b) sustainable embedded AI systems, and (c) real-time adaptive communication systems.</br></p>
 
-            <p align="justify">The workshop will facilitate discussions on unresolved issues, including new laboratory methodologies, key real-life limitations of wireless technologies that have emerged over the past few years (e.g., mmWave, underwater, 5G, IoT, wearables, Open RAN and SDN), as well as key challenges facing the wireless networking of the future. As WiNTECH concerns experimental communications and networking, it will feature a relatively large demo session as centerpiece, where real testbeds, deployments and prototypes can be demonstrated and discussed. A demo competition is planned.</p>
+            <p align="justify">NeuroPHY focuses on the emerging <b>intersection between neuromorphic computing and PHY signal processing for wireless communication systems</b>. The workshop aims to explore how spiking neural networks (SNNs), reservoir computing, and embedded neuromorphic processors can enable ultra-low-power, adaptive, and real-time PHY functionalities.</p>
 
-            <p align="justify">All the regular papers will be considered for the <b>Best Paper Award</b>.</p>
+            <p align="justify">The aim is to bring together researchers working on both hardware implementations and software-driven applications to advance next-generation wireless and sensor systems, especially towards energy efficiency.
+                Specifically, the objectives are:
+            </p>
 
-            <p id="listing" align="justify">In addition to the regular papers, the program of {{ site.data.conference.short_title }} {{ site.data.conference.year }} will also include:</p>
-<!--            TODO: Update this section-->
+            <ul class="bullet-list">
+                <li>Establish a research forum bridging neuromorphic computing and wireless PHY design</li>
+                <li>Identify and exploit opportunities for low-energy, real-time signal processing</li>
+                <li>Promote collaboration and networking between hardware designers, communication theorists, and machine learning experts</li>
+                <li>Evaluate feasibility and limitations of neuromorphic approaches in real-world deployments</li>
+            </ul>
+
+            <!-- <p align="justify">All the regular papers will be considered for the <b>Best Paper Award</b>.</p> -->
+
+            <p><b>KEYNOTE SPEECH:</b> TBA.</p>
+
+            <!--<p id="listing" align="justify">In addition to the regular papers, the program of {{ site.data.conference.short_title }} {{ site.data.conference.year }} will also include:</p>
+               TODO: Update this section
             <li>A keynote speech from an expert in experimental wireless research</li>
             <li>A Demo session</li>
-            <br>
+            <br>-->
 
 						{% if site.data.keynotes.size > 0 %}
             <p><b>Keynote Speakers:</b><br/>
@@ -46,7 +63,7 @@
 						{% endif %}
 
             <p><b>IMPORTANT DATES:</b><br/>
-            Paper registration: {{ site.data.dates.registration }}<br/>
+            <!-- Paper registration: {{ site.data.dates.registration }}<br/> -->
             Paper submission: {{ site.data.dates.submission }}<br/>
             Acceptance notification: {{ site.data.dates.notification }}<br/>
             Camera ready: {{ site.data.dates.camera_ready }}<br/>

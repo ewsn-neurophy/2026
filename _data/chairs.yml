@@ -1,14 +1,14 @@
 general_chairs:
-  - firstname: Dr. Giovanni
+  - firstname: Giovanni
     lastname: Perin
     institution: University of Brescia, Brescia, Italy
-  - firstname: Prof. Michele
+  - firstname:  Michele
     lastname: Rossi
     institution: University of Padova, Padova, Italy
-  - firstname: Dr. Roberto
+  - firstname:  Roberto
     lastname: Morabito
     institution: Eurecom, Sophia Antipolis, France
-  - firstname: Prof. Silvia
+  - firstname:  Silvia
     lastname: Tolu
     institution: Denmark Technical University, Kgs. Lyngby, Denmark
 

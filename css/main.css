@@ -69,6 +69,19 @@ ulx li {
   font-family: "Ionicons";
 }
 
+/* Simple bullet list with slight indent used on index and CFP sections */
+.bullet-list {
+  list-style-type: disc;
+  margin-left: 28px;
+  padding-left: 12px;
+  font-weight: 400; /* use normal weight for bullets */
+  margin-bottom: 28px; /* space after the list */
+}
+
+.bullet-list li {
+  font-weight: 400 !important;
+}
+
 .social-block {
   list-style-type: none;
   padding: 0;
@@ -154,6 +167,15 @@ ulx li {
   margin: 0 0 20px;
   /*text-transform: uppercase;*/
   text-align: center;
+}
+
+/* Reduce vertical spacing specifically for the CFP section (intermediate value) */
+#cfp.section {
+  padding: 55px 0;
+}
+
+#cfp .section-title {
+  margin-bottom: 14px;
 }
 
 /*
@@ -266,14 +288,14 @@ ulx li {
 }
 
 .bg-image-1 {
-  background: url("../img/background/dresden-sunset.jpg") no-repeat center 65%/cover;
+  background: url("../img/background/dresden-sunset-2.png") no-repeat center 65%/cover;
 }
 .bg-image-1::before {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
 .bg-image-2 {
-  background: url("../img/background/dresden-sunset.jpg") no-repeat center 65%/cover;
+  background: url("../img/background/dresden-sunset-2.png") no-repeat center 65%/cover;
 }
 .bg-image-2::before {
   background-color: rgba(0, 0, 0, 0.7);
@@ -366,7 +388,7 @@ ulx li {
   padding: 100px 0 50px;
   position: relative;
   text-align: center;
-  background-image: url("../img/background/dresden-sunset.jpg");
+  background-image: url("../img/background/dresden-sunset-2.png");
   background-size: cover;
   -webkit-background-size: cover;
   background-repeat: no-repeat;
