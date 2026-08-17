@@ -1,0 +1,41 @@
+---
+# this is an empty front matter
+---
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{ site.data.conference.short_title }} {{ site.data.conference.year }} | Registration</title>
+        <!-- css -->
+        <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="ionicons/css/ionicons.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    </head>
+    <body data-spy="scroll" data-target="#site-nav">
+        {% include header.html %}
+
+        <section id="registration" class="section registration-section" style="display: block;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="section-title">REGISTRATION INFORMATION</h3>
+                    </div>
+                </div>
+                <p align="justify">At least one author per accepted paper must register for the conference and present their paper at the workshop. 
+                    Notice that a full registration is not required if the paper will be presented by a student. All attendees must also register
+                    at full or student rate depending on their eligibility even if they are not presenter. The conference registration is valid for
+                    the whole event. Please leave blank the article number, as workshop papers are not considered full papers.
+
+                Visit the <a href="https://eveeno.com/ewsn2026" target="_blank"><b>registration site</b></a> to register to EWSN 2026.
+            </p>
+            </div>
+        </section>
+
+        <!-- import navigation bar and header -->
+        <script src="//code.jquery.com/jquery.min.js"></script>
+        <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    </body>
+</html>

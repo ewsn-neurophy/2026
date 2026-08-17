@@ -178,6 +178,31 @@ ulx li {
   margin-bottom: 14px;
 }
 
+/* Registration page */
+.registration-section {
+  background-color: #f8f8f8;
+}
+
+.registration-card {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  padding: 28px 30px;
+}
+
+.registration-button {
+  margin-top: 8px;
+}
+
+.registration-link-note {
+  margin-bottom: 18px;
+  word-break: break-word;
+}
+
+.registration-notes h4 {
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+
 /*
  * 3.0 Helper Class
  */
