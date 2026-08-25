@@ -518,6 +518,14 @@ ulx li {
   font-weight: 400;
 }
 
+/* Program schedule uses the facts section class but needs readable headings. */
+#program.facts h4 {
+  color: #4e4e4e;
+  text-align: left;
+  font-weight: 400;
+  margin: 0;
+}
+
 /*
  * 6.3 Section: Speaker
  */
